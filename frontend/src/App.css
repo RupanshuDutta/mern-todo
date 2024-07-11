@@ -1,0 +1,39 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header h1 a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .header h1 a:hover {
+    text-decoration: underline;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    margin-left: 20px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
